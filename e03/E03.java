@@ -6,6 +6,7 @@ class E03 {
 
         System.out.println("Enter a number:");
         double number = scanner.nextDouble();
+        System.out.println();
 
         if (number > 0) {
             System.out.println("Positive number");
