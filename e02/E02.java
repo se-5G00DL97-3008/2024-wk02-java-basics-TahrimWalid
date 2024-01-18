@@ -5,10 +5,10 @@ class E02 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Give a number:");
-        double num1 = scanner.nextDouble();
+        int num1 = scanner.nextInt();
 
         System.out.println("Give another number:");
-        double num2 = scanner.nextDouble();
+        int num2 = scanner.nextInt();
 
         System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
         System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));

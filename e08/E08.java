@@ -5,7 +5,7 @@ class E08 {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Enter a number (0 to quit):");
+            System.out.println("Give a number (0 to quit):");
             int number = scanner.nextInt();
 
             if (number == 0) {
@@ -14,9 +14,9 @@ class E08 {
             }
 
             if (number % 2 == 0) {
-                System.out.println("Even number");
+                System.out.println("Number is even");
             } else {
-                System.out.println("Odd number");
+                System.out.println("Number is odd");
             }
         }
 

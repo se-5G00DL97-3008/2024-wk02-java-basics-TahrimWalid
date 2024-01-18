@@ -9,14 +9,14 @@ class E01 {
         byte num = 100;
         double pi = 3.1345759992338476;
         
-        System.out.println("x: " + x);
-        System.out.println("y: " + y);
-        System.out.println("flag: " + flag);
-        System.out.println("letter: " + letter);
-        System.out.println("year: " + year);
-        System.out.println("population: " + population);
-        System.out.println("num: " + num);
-        System.out.println("pi: " + pi);
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(flag);
+        System.out.println(letter);
+        System.out.println(year);
+        System.out.println(population);
+        System.out.println(num);
+        System.out.println(pi);
             
     }
 

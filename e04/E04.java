@@ -13,7 +13,7 @@ class E04 {
         int month = scanner.nextInt();
 
         if (day == 24 && month == 12) {
-            System.out.println("Merry Christmas!");
+            System.out.println("Merry Christmas");
         }
 
         scanner.close();
